@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/productImageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_launcher_background"/>
+
+
+    <TextView
+        android:id="@+id/nameTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Product"
+        android:textAppearance="@style/TextAppearance.AppCompat.Title"/>
+
+</LinearLayout>
